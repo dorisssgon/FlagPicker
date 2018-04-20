@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "flag",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,10 +7,17 @@
     "react-dom": "^16.3.1",
     "react-scripts": "1.1.4"
   },
+  "devDependencies": {
+    "babel-jest": "<current-version>",
+    "babel-preset-env": "<current-version>",
+    "babel-preset-react": "<current-version>",
+    "jest": "<current-version>",
+    "react-test-renderer": "<current-version>"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "jest",
     "eject": "react-scripts eject"
-  }
+}
 }
